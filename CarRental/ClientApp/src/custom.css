@@ -1,0 +1,40 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+.search-input {
+    margin-right:10px;
+}
+
+.group-select-label {
+    background: white;
+    padding-right: 7px !important;
+    padding-left: 7px !important;
+}
+.advanced-search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Adjusted to align items at the top */
+    margin-bottom: 45px;
+}
+
+.search-button {
+    padding: 14.5px 24px !important;
+}
+
+.switch-page-button {
+    position: absolute !important;
+    right: 20px;
+    top: 20px;
+}
